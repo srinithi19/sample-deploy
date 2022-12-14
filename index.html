@@ -4,20 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <h1>Zoo</h1>
-    <img src="https://ichef.bbci.co.uk/childrens-responsive-ichef-live/r/720/1x/cbbc/the_zoo_who_are_you_quiz_index_new.jpg" alt="zoo">
-    <ul>
-        <li>Lion</li>
-        <li>Elephant</li>
-        <li>Seal</li>
-        <li>Buffalo</li>
-        <li>Giraffe</li>
-        <li>Penguin</li>
-        <li>Turtle</li>
-        <li>Whale</li>
-    </ul>
+    <header class="header">
+        <section id="navlinks">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://github.com/srinithi19/refactor-site">Github</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact form</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </section>
+        <section class="content">
+            <h1>Srinithi Ravichandran</h1>
+            <figure>
+                <img width="200" src="https://www.catster.com/wp-content/uploads/2018/05/A-gray-cat-crying-looking-upset.jpg" alt="Funny Cat"/>
+                <figcaption>picture</figcaption>
+            </figure>
+        </section>
+        <section class="contact">
+            <h2>contact info</h2> 
+            <form id="contact">
+                <label for="name"> Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+                <br/>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email.">
+                <br/>
+                <input type="submit" value="Send">
+
+            </form>   
+        </section>
+        
+
+
+
+
+    </header>
+    
+    <footer>
+
+
+    </footer>
+    
 </body>
 </html>

@@ -1,0 +1,42 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: darksalmon;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header {
+    padding: 20px;
+}
+
+/* applies to all h1 inside header */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* to all nav tags under header */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* to all ul tag under nav which is under header */
+.header nav ul {
+    list-style-type: none;
+}
+
+#navlinks {
+    background-color: aqua;
+}
